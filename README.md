@@ -51,7 +51,7 @@ The scikit-learn library makes this really easy to play around with. Just use th
 
 ### Representations
 
-In part 1 we represented each review as a binary vector (1s and 0s) with a slot/column for every unique word in our corpus, where 1 represents that a given word was in the review.
+Here I represented each review as a binary vector (1s and 0s) with a slot/column for every unique word in our corpus, where 1 represents that a given word was in the review.
 While this simple approach can work very well, there are ways that we can encode more information into the vector.
 
 ### Word Counts
