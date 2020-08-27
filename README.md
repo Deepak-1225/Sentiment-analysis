@@ -23,7 +23,7 @@ The raw text is pretty messy for these reviews so before we can do any analytics
 **Note:** Understanding and being able to use regular expressions is a prerequisite for doing any Natural Language Processing task. If you’re unfamiliar with them perhaps start here: [Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285) 
 
 ### Text Processing
-For our first iteration we did very basic text processing like removing punctuation and HTML tags and making everything lower-case. We can clean things up further by removing stop words and normalizing the text.
+For our first iteration we did very basic text processing like removing punctuation and HTML tags and making everything lower-case.
 To make these transformations we’ll use libraries from the [Natural Language Toolkit](https://www.nltk.org/) (NLTK). This is a very popular NLP library for Python.
 
 ### Removing Stop Words
